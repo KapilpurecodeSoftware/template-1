@@ -1,20 +1,18 @@
-
-
-body{
+body {
   background-color: #f7f7f7;
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
-  
 }
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 
-.cardHeader{
+.cmpname{
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+}
+.cardHeader {
   height: 4rem;
   /* width: 69rem; */
   display: flex;
@@ -25,8 +23,6 @@ body{
   padding-right: 14px;
   border-bottom: 1px solid #555;
 }
-
-
 
 .cardss {
   display: flex;
@@ -41,7 +37,7 @@ body{
 }
 
 .mainCard {
- width: 280px;
+  width: 280px;
   height: 10%;
   padding: 16px;
 }
@@ -79,7 +75,7 @@ body{
 }
 
 .whiteCard li:first-child::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 43px;
   left: -1px;
@@ -89,12 +85,12 @@ body{
   background-color: rgb(219, 145, 7);
 }
 
-.detailCard {
+.detailCard{
   width: 700px;
   display: flex;
   justify-content: flex-start;
-  height: 470px;
-  flex-direction: column; 
+  height: 477px;
+  flex-direction: column;
   padding: 4px;
   margin-left: 90px;
   margin-top: 20px;
@@ -109,26 +105,23 @@ body{
   gap: 2%;
   border-bottom: 1px solid gray;
 }
-.detailsCard span{
-margin-left: 5px;
+.detailsCard span {
+  margin-left: 5px;
 }
 
 .details {
- 
-  
   padding-left: 20px;
   flex: 1;
 }
 
 .test {
-  
-  flex: 0 0 auto; 
+  flex: 0 0 auto;
 }
 .test:after {
-  content: '\2807';
+  content: "\2807";
   font-size: 20px;
   margin-top: 8px;
-  }
+}
 
 .details h5 {
   font-weight: 700;
@@ -139,7 +132,7 @@ margin-left: 5px;
   color: #c7bdbd;
 }
 
-.settingIcon{
+.settingIcon {
   margin-right: 0px;
   font-size: 25px;
 }
