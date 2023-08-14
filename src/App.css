@@ -1,0 +1,147 @@
+
+
+body{
+  background-color: #f7f7f7;
+  overflow: hidden;
+  margin: 0;
+  
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.cardHeader{
+  height: 4rem;
+  /* width: 69rem; */
+  display: flex;
+  flex-grow: 1;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 14px;
+  border-bottom: 1px solid #555;
+}
+
+
+
+.cardss {
+  display: flex;
+  flex-direction: row; /* Set to row to align addContact and detailCard side by side */
+  margin-top: 10px;
+}
+
+/* New container for addContact and whiteCard */
+.addContactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainCard {
+ width: 280px;
+  height: 10%;
+  padding: 16px;
+}
+
+.addContact {
+  padding: 8px;
+  background-color: #dfa841;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.whiteCard {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 7, 7);
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 6%;
+  list-style: none;
+  position: relative;
+}
+
+.whiteCard li {
+  text-align: left;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.whiteCard li:first-child {
+  color: rgb(219, 145, 7);
+}
+
+.whiteCard li:first-child::before {
+  content: '';
+  position: absolute;
+  height: 43px;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(219, 145, 7);
+}
+
+.detailCard {
+  width: 700px;
+  display: flex;
+  justify-content: flex-start;
+  height: 470px;
+  flex-direction: column; 
+  padding: 4px;
+  margin-left: 90px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 0.3px solid gray;
+}
+
+.detailsCard {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 2%;
+  border-bottom: 1px solid gray;
+}
+.detailsCard span{
+margin-left: 5px;
+}
+
+.details {
+ 
+  
+  padding-left: 20px;
+  flex: 1;
+}
+
+.test {
+  
+  flex: 0 0 auto; 
+}
+.test:after {
+  content: '\2807';
+  font-size: 20px;
+  margin-top: 8px;
+  }
+
+.details h5 {
+  font-weight: 700;
+}
+
+.details h6 {
+  font-weight: 400;
+  color: #c7bdbd;
+}
+
+.settingIcon{
+  margin-right: 0px;
+  font-size: 25px;
+}
+
+/*---------------------------------------------------////////----------------------------------------*/
