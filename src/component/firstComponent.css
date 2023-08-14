@@ -110,7 +110,12 @@
 .icons {
   display: flex;
   align-items: center;
-  gap: 1rem; /* This will add the same space as 'space-x-9' in Tailwind CSS */
+  
+  gap: 1rem; 
+}
+
+.notificationIcon{
+  font-size: 20px;
 }
 
 .logo {

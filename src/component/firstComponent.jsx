@@ -38,13 +38,13 @@ export default function FirstComponent() {
             </div>
 
             <span
-              className="material-symbols-outlined"
+              className="material-symbols-outlined "
               style={{ marginLeft: "50px" }}
             >
               notifications
             </span>
 
-            <div className="icon" style={{ marginRight: "10px" , height:"5px" , width:"17px" }}>
+            <div className="icon" style={{ marginRight: "0px" , marginBottom: "12px" , height:"5px" , width:"17px" }}>
               <svg
                 viewBox="0 0 1024 1024"
                 xmlns="http://www.w3.org/2000/svg"
